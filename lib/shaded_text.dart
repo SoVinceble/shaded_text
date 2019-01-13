@@ -1,7 +1,6 @@
 library shaded_text;
 
 import 'package:flutter/material.dart';
-import 'package:meta/meta.dart';
 
 typedef ShadeBuilder = Widget Function(
     BuildContext context, String text, Color color);
